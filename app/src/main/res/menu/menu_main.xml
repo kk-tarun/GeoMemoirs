@@ -1,0 +1,12 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_feedback"
+        android:title="Feedback"/>
+    <item
+        android:id="@+id/action_support"
+        android:title="Support"/>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"/>
+</menu>

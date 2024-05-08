@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:padding="10dp"
+    android:elevation="2dp">
+
+    <!-- Icon ImageView -->
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/baseline_location_pin_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Current Location TextView -->
+    <TextView
+        android:id="@+id/currentLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Current Location"
+        app:layout_constraintStart_toEndOf="@id/iconImageView"
+        app:layout_constraintTop_toTopOf="@id/iconImageView"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <!-- Placeholder TextView for current location -->
+    <TextView
+        android:id="@+id/placeholderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Kapurthala, Punjab, India"
+        app:layout_constraintStart_toEndOf="@id/iconImageView"
+        app:layout_constraintTop_toBottomOf="@id/currentLocationTextView"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/placeholderTextViewNotesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textAlignment="center"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/placeholderTextView"
+        android:layout_margin="10dp"
+        android:textSize="30dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/placeholderTextViewNotesText"
+        tools:layout_editor_absoluteX="-2dp"
+        android:layout_marginTop="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

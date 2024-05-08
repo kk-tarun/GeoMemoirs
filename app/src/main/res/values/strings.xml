@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Geo Memoirs</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Map</string>
+    <string name="title_notifications">Notes</string>
+    <string name="google_maps_key">AIzaSyDRoB93RQ82q-mfpRW_prWJed0aY8783Xo</string>
+</resources>

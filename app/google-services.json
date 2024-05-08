@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966570132648",
+    "project_id": "map-project-7fd7e",
+    "storage_bucket": "map-project-7fd7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966570132648:android:1f201d6fe51001c92cae9d",
+        "android_client_info": {
+          "package_name": "com.example.geomemoirs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPSjWL7ojXiYdV3zEFj2ex1vG-B7LsDmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
